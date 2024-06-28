@@ -1,0 +1,22 @@
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: none;
+  background-color: #212124;
+  border-radius: 8px;
+  color: #fff;
+
+  .data-table-row:not(:last-child) {
+    border-bottom: 1px solid #2d2d2f !important;
+  }
+
+  .data-table-header {
+    border-bottom: 1px solid #2d2d2f !important;
+  }
+
+  th,
+  td {
+    padding: 1rem;
+    text-align: left;
+  }
+}
